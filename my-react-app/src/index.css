@@ -1,0 +1,107 @@
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.122);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image{
+  height: 150px;
+  width: 150px;
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: cadetblue;
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgb(41, 41, 41);
+}
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  padding: 10px;
+  border: 5px solid rgb(46, 7, 101);
+  
+}
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: coral;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  color: hsl(0, 0%, 40%);
+  cursor: pointer;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.count-display{
+  font-size: 10em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.count-button{
+  width: 100px;
+  height: 30px;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  margin: 0px 5px;
+  font-weight: bold;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.count-button:hover{
+  background-color: rgb(3, 103, 103);
+}
+
+/* Color changer */
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-display{
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  border: 5px solid chartreuse;
+  border-radius: 25px;
+  transform: 0.25s ease;
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 40px;
+}
