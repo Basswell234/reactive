@@ -16,6 +16,7 @@ import UpdaterFunction from './UpdaterFunction.jsx'
 import UpdaterCar from './UpdaterCar.jsx'
 import FoodList from './FoodList.jsx'
 import Car from './Car.jsx'
+import TodoList from './TodoList.jsx'
 
 
 
@@ -52,6 +53,7 @@ function App() {
       <UpdaterCar></UpdaterCar>
       <FoodList></FoodList>
       <Car></Car>
+      <TodoList></TodoList>
 
     </>
     
