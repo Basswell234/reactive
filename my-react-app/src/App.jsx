@@ -39,6 +39,7 @@ function App() {
       <Footer></Footer> */}
       <DigitalClock></DigitalClock>
       <br />
+      <br />
       <Card></Card> <br /><br />
       <Button></Button>
       <Student name="Basswell" age={23} isStudent = {true}/>
