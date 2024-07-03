@@ -17,6 +17,8 @@ import UpdaterCar from './UpdaterCar.jsx'
 import FoodList from './FoodList.jsx'
 import Car from './Car.jsx'
 import TodoList from './TodoList.jsx'
+import UseEffect from './UseEffect.jsx'
+import DigitalClock from './DigitalClock.jsx'
 
 
 
@@ -35,10 +37,13 @@ function App() {
       <Header></Header>
       {/* <Food></Food>
       <Footer></Footer> */}
+      <DigitalClock></DigitalClock>
+      <br />
       <Card></Card> <br /><br />
       <Button></Button>
       <Student name="Basswell" age={23} isStudent = {true}/>
       <Student/>
+      
       <UserGreeting isLoggedIn = {true} username = "Bass"/>
 
       <List items={fruits} category="Fruits"/>
@@ -54,6 +59,7 @@ function App() {
       <FoodList></FoodList>
       <Car></Car>
       <TodoList></TodoList>
+      <UseEffect></UseEffect>
 
     </>
     
